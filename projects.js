@@ -46,6 +46,7 @@ const PROJECTS = [
     ],
     tech: ["Altium Designer", "STM32", "C", "FDCAN"],
     link: "",
+    image: "",
     order: 10
   },
   {
@@ -64,6 +65,7 @@ const PROJECTS = [
     ],
     tech: ["C", "STM32CubeIDE", "PCB Debugging"],
     link: "",
+    image: "",
     order: 20
   },
   {
@@ -80,7 +82,8 @@ const PROJECTS = [
       "[A specific technical decision — e.g. 'Structured IPC between main and renderer processes to keep the UI responsive during file I/O.']"
     ],
     tech: ["Electron.js", "JavaScript", "HTML/CSS"],
-    link: "",
+    link: "https://fredellap-portfolio.carrd.co/",
+    image: "",
     order: 15
   },
   {
@@ -99,6 +102,7 @@ const PROJECTS = [
     ],
     tech: ["KiCad", "ESP32", "C++", "PlatformIO"],
     link: "",
+    image: "",
     order: 30
   },
   {
@@ -116,6 +120,7 @@ const PROJECTS = [
     ],
     tech: ["PowerApps", "SharePoint"],
     link: "",
+    image: "",
     order: 40
   }
 ];
