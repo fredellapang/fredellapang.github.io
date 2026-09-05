@@ -17,6 +17,7 @@
       "Another one."
     ],
     tech:  ["C", "STM32", "KiCad"],        // short tags, rendered in mono
+    image: "assets/your-photo.jpg",        // optional. "" or omit to skip the image entirely.
     link:  "https://github.com/you/repo",  // repo, demo, or write-up. "" hides the link.
     order: 20                              // lower numbers show first
   }
@@ -27,6 +28,14 @@
     U  = IC / embedded or hardware-centric project
     SW = software-only project (a little pun on the real "switch" designator)
   Pick whichever fits, then the next free number for that prefix.
+
+  ON IMAGES
+  ---------
+  Put image files in the assets/ folder and point `image` at that path,
+  e.g. "assets/tsjp-board.jpg". Landscape shots around 800x500px (roughly
+  8:5) work best — the card crops to that ratio. Leave `image` as ""
+  (or delete the line) for a project with no photo yet; the card just
+  won't show an image area.
 */
 
 const PROJECTS = [
@@ -45,8 +54,8 @@ const PROJECTS = [
       "Diagnosed and resolved embedded electronics faults on high-reliability racing hardware."
     ],
     tech: ["Altium Designer", "STM32", "C", "FDCAN"],
-    link: "",
     image: "",
+    link: "",
     order: 10
   },
   {
@@ -64,8 +73,8 @@ const PROJECTS = [
       "Debugged electrical connections across 2 PCBs and ran system integration tests for full robot operation."
     ],
     tech: ["C", "STM32CubeIDE", "PCB Debugging"],
-    link: "",
     image: "",
+    link: "",
     order: 20
   },
   {
@@ -82,8 +91,8 @@ const PROJECTS = [
       "[A specific technical decision — e.g. 'Structured IPC between main and renderer processes to keep the UI responsive during file I/O.']"
     ],
     tech: ["Electron.js", "JavaScript", "HTML/CSS"],
-    link: "https://fredellap-portfolio.carrd.co/",
     image: "",
+    link: "",
     order: 15
   },
   {
@@ -101,8 +110,8 @@ const PROJECTS = [
       "Validated the design in partnership with Calgary Foothills Hospital across mechanical, electrical, and software teams."
     ],
     tech: ["KiCad", "ESP32", "C++", "PlatformIO"],
-    link: "",
     image: "",
+    link: "",
     order: 30
   },
   {
@@ -119,8 +128,8 @@ const PROJECTS = [
       "Built a dynamic availability-toggle feature with automated rule enforcement for tournament regulations."
     ],
     tech: ["PowerApps", "SharePoint"],
-    link: "",
     image: "",
+    link: "",
     order: 40
   }
 ];
