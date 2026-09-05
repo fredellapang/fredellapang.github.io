@@ -225,19 +225,6 @@ ul { margin: 0; padding: 0; list-style: none; }
   gap: 12px;
 }
 .section--paper:nth-of-type(even) .project-card { background: var(--paper-raise); }
-.project-card__image {
-  margin: -22px -22px 4px;
-  aspect-ratio: 8 / 5;
-  overflow: hidden;
-  border-bottom: 1px solid rgba(23, 34, 44, 0.22);
-  background: rgba(23, 34, 44, 0.06);
-}
-.project-card__image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
 .project-card__row {
   display: flex;
   align-items: center;
