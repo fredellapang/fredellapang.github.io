@@ -92,7 +92,7 @@ const PROJECTS = [
     ],
     tech: ["Electron.js", "JavaScript", "HTML/CSS"],
     image: "",
-    link: "",
+    link: "https://fredellap-portfolio.carrd.co/",
     order: 15
   },
   {
