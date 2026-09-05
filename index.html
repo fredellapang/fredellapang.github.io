@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fredella Pang — Electrical Engineering &amp; Computer Science</title>
+<meta name="description" content="Portfolio of Fredella Pang — Electrical Engineering and Computer Science student at the University of Calgary.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="topnav">
+  <a class="topnav__mark" href="#top">FP</a>
+  <div class="topnav__links">
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<main id="top">
+
+  <!-- HERO -->
+  <header class="hero" id="hero">
+    <div class="grid-field" aria-hidden="true"></div>
+    <div class="hero__inner">
+      <div class="pad"></div>
+      <p class="hero__eyebrow">Electrical Engineering + Computer Science</p>
+      <h1 class="hero__name">Fredella Pang</h1>
+      <p class="hero__statement">
+        I build the boards, firmware, and interfaces underneath physical systems —
+        from a formula car's high-voltage electronics to the sensors on a clinical wearable.
+        Based in Calgary, currently on the High Voltage Team at UCalgary Racing and
+        researching in the Schulich School of Engineering.
+      </p>
+      <div class="hero__actions">
+        <a class="btn btn--ghost" href="mailto:fredella.pang@ucalgary.ca">Email me</a>
+        <a class="btn btn--ghost" href="https://linkedin.com/in/fredella-pang" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn btn--ghost" href="resume.pdf" target="_blank" rel="noopener">Resume</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- SKILLS -->
+  <section class="section section--paper" id="skills">
+    <div class="section__inner">
+      <div class="pad"></div>
+      <h2 class="section__title">Skills</h2>
+      <div class="datasheet" id="skills-table">
+        <div class="datasheet__row">
+          <div class="datasheet__label">Languages</div>
+          <div class="datasheet__value">Java, Python, C/C++, JavaScript, HTML/CSS, Power FX, Assembly, SystemVerilog</div>
+        </div>
+        <div class="datasheet__row">
+          <div class="datasheet__label">Tools &amp; Platforms</div>
+          <div class="datasheet__value">Git, VS Code, PyCharm, IntelliJ, PowerApps, Thonny, STM32CubeIDE, PlatformIO</div>
+        </div>
+        <div class="datasheet__row">
+          <div class="datasheet__label">Engineering Software</div>
+          <div class="datasheet__value">KiCad, Altium Designer, LTSpice, MATLAB, SolidWorks, Fusion 360</div>
+        </div>
+        <div class="datasheet__row">
+          <div class="datasheet__label">Hardware</div>
+          <div class="datasheet__value">PCB assembly, oscilloscopes, embedded systems debugging</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section section--paper" id="projects">
+    <div class="section__inner">
+      <div class="pad"></div>
+      <h2 class="section__title">Projects</h2>
+      <p class="section__lede">A running list — new work gets added here as it's built.</p>
+      <div class="project-grid" id="project-grid"><!-- injected by script.js --></div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section section--blueprint" id="experience">
+    <div class="section__inner">
+      <div class="pad"></div>
+      <h2 class="section__title section__title--on-blueprint">Experience</h2>
+      <ol class="timeline">
+
+        <li class="timeline__item">
+          <div class="timeline__date">Apr 2026 – Present</div>
+          <div class="timeline__body">
+            <h3>Undergraduate Research Intern</h3>
+            <p class="timeline__org">Schulich School of Engineering</p>
+            <ul>
+              <li>Authored a 6-page research workshop paper and presented findings on campus.</li>
+              <li>Built Python simulation pipelines benchmarking 1,000+ configurations.</li>
+              <li>Found that up to 90% parameter reduction improves stability-plasticity tradeoffs in non-stationary computer vision classification.</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="timeline__item">
+          <div class="timeline__date">Apr 2026 – Present</div>
+          <div class="timeline__body">
+            <h3>VP Events</h3>
+            <p class="timeline__org">Electrical and Software Engineering Students' Society</p>
+            <ul>
+              <li>Ran industry, academic, and social events for 100+ guests.</li>
+              <li>Secured industry partnerships and in-kind donations to cut event costs.</li>
+              <li>Led a team of 5 commissioners alongside fellow executives.</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="timeline__item">
+          <div class="timeline__date">Oct 2025 – Present</div>
+          <div class="timeline__body">
+            <h3>High Voltage Team Member</h3>
+            <p class="timeline__org">UCalgary Racing</p>
+            <ul>
+              <li>Designed and debugged embedded electronics on STM32 microcontrollers for high-reliability racing hardware.</li>
+              <li>Implemented FDCAN communication in C for inter-module comms.</li>
+              <li>Redesigned the TSJP PCB in Altium, cutting board size by 20%.</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="timeline__item">
+          <div class="timeline__date">Sep 2025 – Present</div>
+          <div class="timeline__body">
+            <h3>Electrical Team Member</h3>
+            <p class="timeline__org">BMERIT</p>
+            <ul>
+              <li>Built a low-power wearable sensing system with wireless data transmission for clinical gait analysis.</li>
+              <li>Laid out PCBs in KiCad, passing DRC, for an automated goniometer with live sensor integration.</li>
+              <li>Validated the design with Calgary Foothills Hospital across mechanical, electrical, and software teams.</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="timeline__item">
+          <div class="timeline__date">Jan 2026 – Present</div>
+          <div class="timeline__body">
+            <h3>Front Desk Associate</h3>
+            <p class="timeline__org">Rockii Pickleball Centre</p>
+            <ul>
+              <li>Ran customer service, court reservations, and high-volume phone inquiries.</li>
+              <li>Launched and promoted seasonal leagues and membership programs.</li>
+            </ul>
+          </div>
+        </li>
+
+      </ol>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="section section--paper" id="education">
+    <div class="section__inner">
+      <div class="pad"></div>
+      <h2 class="section__title">Education</h2>
+      <div class="edu">
+        <div class="edu__degree">
+          <h3>B.Sc. Electrical Engineering</h3>
+          <p class="edu__meta">Schulich School of Engineering, University of Calgary — Expected May 2029</p>
+          <p class="edu__meta">Minor in Mechatronics</p>
+          <h3>B.Sc. Computer Science</h3>
+          <p class="edu__meta">University of Calgary</p>
+        </div>
+        <div class="edu__awards">
+          <p class="edu__awards-label">Awards</p>
+          <ul class="chip-list">
+            <li>Dean's List — all semesters</li>
+            <li>Jason Lang Scholarship</li>
+            <li>Global Learning Award</li>
+            <li>UCalgary Support Staff Bursary</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT / FOOTER -->
+  <footer class="footer section--blueprint" id="contact">
+    <div class="section__inner">
+      <div class="pad"></div>
+      <h2 class="section__title section__title--on-blueprint">Get in touch</h2>
+      <p class="footer__lede">Open to Electrical Engineering and embedded software internships.</p>
+      <div class="hero__actions">
+        <a class="btn btn--ghost" href="mailto:fredella.pang@ucalgary.ca">fredella.pang@ucalgary.ca</a>
+        <a class="btn btn--ghost" href="https://linkedin.com/in/fredella-pang" target="_blank" rel="noopener">linkedin.com/in/fredella-pang</a>
+      </div>
+      <p class="footer__fine">Calgary, AB</p>
+    </div>
+  </footer>
+
+</main>
+
+<script src="projects.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
