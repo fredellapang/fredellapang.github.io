@@ -20,8 +20,13 @@
       ? `<a class="project-card__link" href="${escapeAttr(p.link)}" target="_blank" rel="noopener">View project</a>`
       : '';
 
+    const image = p.image
+      ? `<div class="project-card__image"><img src="${escapeAttr(p.image)}" alt="${escapeAttr(p.title || '')}" loading="lazy"></div>`
+      : '';
+
     return `
       <article class="project-card">
+        ${image}
         <div class="project-card__row">
           <span class="project-card__designator">${escapeHtml(p.designator || '')}</span>
           <span class="project-card__category">${escapeHtml(p.category || '')}</span>
